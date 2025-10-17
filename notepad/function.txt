@@ -1,0 +1,91 @@
+1.function sai(a,b,c, d){
+
+     let sai=a+b-c+d;
+     returnresult
+}
+    console.log( 12+23-12+10);
+	
+	output = 33
+	
+2.function Siva_Kumar(a,b){
+ let Siva_Kumar=a+b;
+ resultreturn
+ }
+ console.log(10+90)
+  output=100
+  
+ 3 .function AjithKumar(a,b){
+ let AjithKumar=a-b;
+ resultreturn
+ }
+ console.log(10-10)
+ output=0
+ 
+ 4. function info_corrct(a,b,c,d){
+ let info_corrct=a*b+c+d;
+ resultresult
+ }
+ console.log(10*100+10+10)
+ output=1020
+ 
+ 
+5. function postive_native(name,id,status){
+let postive_native=name+ id +status;
+resultresult
+}
+console.log( "ranjith"+21+"fullstack")
+output=ranjith21fullstack
+
+6 function dra_vid(a,b){
+let dra_vid=a*b;
+resultresult
+}
+console.log(10*10)
+output=100
+
+
+7 function boy_friend( name ,friend,name){
+let boy_friend=name-friend-name;
+resultresult
+}
+console.log("dhoni"-"virat"-"messi")
+output=nan
+
+8.function girl_friend(name,friend){
+let girl_friend=name+friend;
+resultresult
+}
+console.log("sofiya"+"zara")
+output=sofiyazara
+
+9.function JactPot(a,b)
+let JactPot=a+b;
+resultresult
+}
+console.log("john"+"sunny")
+output=jhonsunny
+
+10.
+function leo_goodbod(a,b,c){
+let leo_goodbod=a/b/c;
+resultresult
+}
+console.log(10/20/373)
+output=0.0013
+
+11 .function sub_traction(a,b){
+let sub_traction=a-b;
+resultresult
+}
+console.log(10-2)
+output=8
+
+12.function add_tion(a,b,c,d,e,g){
+let add_tion=a+b+c+d+e+g;
+resultresult
+}
+console.log(1+2+3+4+5+6)
+output=21
+
+
+

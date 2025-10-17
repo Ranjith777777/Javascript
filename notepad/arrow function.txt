@@ -1,0 +1,152 @@
+1.  const add=()=>{
+console.log("welcome to home")
+}
+add()
+
+2 .const  multiple=()=>{
+console.log("come to codeing world")
+}
+multiple()
+
+3. const division=()=>{
+console.log(" see the division sums")
+}
+division()
+
+4 const madulas=()=>{
+console.log("see the percentages sums")
+}
+madulas()
+
+5 const full_stack=()=>{
+console.log(" full stack is a codeing languages")
+}
+full_stack()
+
+6.const pyhonfullstack=()=>{
+console.log("python full stack is a blackend work process")
+}
+pyhonfullstack()
+
+ 7.const javafullstack =()=>{
+console.log("java full stack is a blackend work process")
+}
+javafullstack()	
+
+8.const dotnetfullstack=()=>{
+console.log("dotnet full stack ia backend process")
+}
+dotnetfullstack()	
+
+9.const MernStack=()=>{
+console.log("mern full stack is a blackend work process easy to learn")
+}
+MernStack()	
+
+10.const Java_program=()=>{
+console.log("java is a program languages is a k sensitive")
+}
+Java_program()
+
+11.const C_Program=()=>{
+console.log("c is codeing languages is c used basic program languages ")
+}
+C_Program()	
+
+
+12.const SQL_Data=()=>{
+console.log("sql is data arranged uesd sql program is a rdms")
+}
+SQL_Data()
+
+13.const NetWorking=()=>{
+console.log(" NetWorking  is aacessing is a world wide hub is networking")
+}
+NetWorking()
+
+
+14.const network_frame=()=>{
+console.log(" network  frame is a used for designed the networking")
+}
+network_frame()	
+
+
+15.const fundamental_basic=()=>{
+console.log("fundamentalbasic is a computer basic used this")
+}
+fundamental_basic()	
+
+
+16 const ProgrammingLanguages=()=>{
+console.log(" program languages is a must impoertant of computer machine")
+}
+ProgrammingLanguages()	
+
+
+17.const cricket_score=()=>{
+console.log("cricket score is appliaction used for enter the data ")
+}
+cricket_score()	
+
+
+18.const score_board=()=>{
+console.log(" score board is a enter store the data in data based")
+}
+score_board()											
+
+
+19. const ipl_teams=()=>{
+console.log("ipl is indian premier leagued access only india country")
+}
+ipl_teams()
+
+
+20.const domoins_nos=()=>{
+console.log("domain nos is a food delivery work emplyes worked")
+}
+domoins_nos()
+
+21.const ama_sons=()=>{
+console.log("amason is a web site used for huamn beginings today to day life")
+}
+ama_sons()
+
+
+22.const codeing_languages=()=>{
+console.log("codeing languges is a uesd python java  c c++ full stack more languages used program languages")
+}
+codeing_languages()
+
+
+23.const stare_bucks=()=>{
+console.log("stare bucks is a most popular coffe stop is world wide")
+}
+stare_bucks()
+
+24.const zudio_max=()=>{
+console.log(" zudio and max is a most popular dress stop in india ")
+}
+zudio_max()
+
+
+25.const nike_buma=()=>{
+console.log(" nike and buma is sports product selledd")
+}
+nike_buma
+
+
+26.const spoken_english=()=>{
+console.log("spoken english is a communication used for world wide spoked used this languages")
+}
+spoken_english()
+
+27.const MonDay=()=>{
+console.log("monday is a every weeked come")
+}
+MonDay()
+
+28.const data_analatics=()=>{
+console.log("data analatics is bussiness used data stroed uesd")
+}
+data_analatics()
+																																																																					

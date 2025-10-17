@@ -1,0 +1,67 @@
+1.const add=(name,id)=>{
+console.log(name,id);
+}
+add("mahi",7);
+
+2.const para_meter=(year,month)=>{
+console.log(year,month);
+}
+para_meter(2004,"month");
+
+3.const argu_ment=(string,no)=>{
+console.log(string,no);
+}
+argu_ment("month",18);
+
+4.const mini_meter=(minum,size)=>{
+console.log(minum,size);
+}
+para_meter("lenth",20);
+
+5.const maxum_meter=(maxum,meter)=>{
+console.log(maxum ,meter);
+}
+maxum_meter("width",30);
+
+6.const measure_meter=(lenth,width)=>{
+console.log(lenth,width);
+}
+measure_meter(20,30);
+
+7.const calculate_size=(lenth,radius)=>{
+console.log(lenth,radius);
+}
+calculate_size(204,2.6);
+
+8.const logical_operator=(and,not)=>{
+console.log(and,not);
+}
+logical_operator(true,false);
+
+9.const arithmetic_operator=(addition,muliple)=>{
+console.log(addition,muliple);
+}
+arithmetic_operator(+,-);
+
+ 10.const arithmetic_operator=(subtraction,muliple)=>{
+console.log(subtraction,muliple);
+}
+arithmetic_operator(-,*);
+
+11 .const arithmetic_operator=(division,modulas)=>{
+console.log(division,modulas);
+}
+arithmetic_operator(/,%);
+
+ 12.const assignment_operator=(greatethan,lessthan)=>{
+console.log(greatethan,lessthan);
+}
+assignment_operator(>,<);
+
+
+
+
+
+
+
+
