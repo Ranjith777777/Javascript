@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+
+<body>
+    <p id="tea"></p>
+    <p id="coffee"></p>
+    <p id="black"></p>
+    <p id="milk"></p>
+    <button id="btn">make tea</button>
+    <button id="btn1">make cofee</button>
+    <button id="btn7">make black cofee</button>
+    <button id="btn3">make milk</button>
+
+
+    <script>
+        const tea = document.getElementById("tea");
+        const cofee = document.getElementById("coffee")
+        const black = document.getElementById("black")
+        const milk = document.getElementById("milk")
+
+
+        btn.addEventListener("click", () => {
+            tea.innerHTML = "tea only avaiable in my stop "
+            tea.innerText += "tea 10 rupees"
+
+        })
+        btn1.addEventListener("click", () => {
+            cofee.innerHTML = "coffee only avaiable in my stop is special coffee  is "
+            cofee.innerText += " 20 rupees"
+
+        })
+        btn3.addEventListener("click", () => {
+            milk.innerHTML = "milk only avaiable in my stop is special milk is "
+            
+        })  
+        btn7.addEventListener("click", () => {
+            black.innerHTML = " black coffee only avaiable in my stop is special black coffee  is -20 rupees "
+           
+        })
+        
+
+
+
+
+    </script>
+
+</body>
+
+</html>
