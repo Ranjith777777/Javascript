@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tea</title>
+</head>
+
+<body>
+    <h1 style="background-color: brown;color: black;text-align: center;padding: 20px;">welcome to tea shop</h1>
+    <button id="button"
+        style="color: black;background-color: aqua;text-align: center;margin-left: 600px;padding: 20px;">click to more
+        menu</button>
+    <div id="product" style="display: none;">
+        <button id="item1" style="background-color: rgb(27, 95, 73);">TEA</button>
+        <button id="item2" style="background-color: blueviolet;">COFFEE</button>
+        <button id="item3" style="background-color:darkred ;">JUICE</button>
+        <button id="item4" style="background-color: rgb(219, 204, 142);">CAKE</button>
+    </div>
+    <div id="tea">
+        <h1 id="y"></h1>
+        <img style="display: none;" id="img"src="D:\javascript\asset\tea.jpg" alt="order">
+    </div>
+    <div style="display: none;" id="pay">
+        <button id="payment">payment</button>
+    </div>
+
+
+    <script>
+        const btn = document.getElementById("button")
+        const product = document.getElementById("product")
+        btn.addEventListener("click", () => {
+            btn.style.display = "none"
+            product.style.display = "block"
+        })
+        const h = document.getElementById("y")
+        const im = document.getElementById("img")
+        const item1 = document.getElementById("item1")
+        const item2 = document.getElementById("item2")
+        const item3 = document.getElementById("item3")
+        const item4 = document.getElementById("item4")
+        const payment = document.getElementById("payment")
+        item1.addEventListener("click", () => {
+            h.textContent = "tea order sucessful"
+            img.src ="D:\javascript\asset\tea.jpg"
+            img.style.display = "block"
+            payment.style.display = "block"
+            item1.style.display = "none"
+        })
+        item2.addEventListener("click", () => {
+            h.textContent = "coffe order sucessful"
+            img.src="index.html/asset/tea.jpg"
+            img.style.display = "block"
+            payment.style.display = "block"
+            item2.style.display = "none"
+        })
+        item3.addEventListener("click", () => {
+            h.textContent = "juice order sucessful"
+            img.src = "asset/juice.jpg"
+            img.style.display = "block"
+            payment.style.display = "block"
+            item3.style.display = "none"
+        })
+        item4.addEventListener("click", () => {
+            h.textContent = "cake order sucessful"
+            img.src = "asset/cake.jpg"
+            img.style.display = "block"
+            payment.style.display = "block"
+            item4.style.display = "none"
+        })
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
