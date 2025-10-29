@@ -19,7 +19,7 @@
     </div>
     <div id="tea">
         <h1 id="y"></h1>
-        <img style="display: none;" id="img"src= alt="order">
+        <img style="display: none;" id="img"src="" alt="order">
     </div>
     <div id="pay">
         <button id="payment" style="display: none;">payment</button>
@@ -46,6 +46,7 @@
             img.style.display = "block"
             payment.style.display = "block"
             item1.style.display = "none"
+            alert
         })
         item2.addEventListener("click", () => {
             h.textContent = "coffe order sucessful"
@@ -71,6 +72,7 @@
         payment.addEventListener("click",()=>{
             img.style.display ="none"
             h.textContent ="Payment received thank you for you order...."
+            alert("enjoy your drink")
         })
 
 
