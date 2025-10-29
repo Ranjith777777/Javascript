@@ -19,10 +19,10 @@
     </div>
     <div id="tea">
         <h1 id="y"></h1>
-        <img style="display: none;" id="img"src="D:\javascript\asset\tea.jpg" alt="order">
+        <img style="display: none;" id="img"src= alt="order">
     </div>
-    <div style="display: none;" id="pay">
-        <button id="payment">payment</button>
+    <div id="pay">
+        <button id="payment" style="display: none;">payment</button>
     </div>
 
 
@@ -42,14 +42,14 @@
         const payment = document.getElementById("payment")
         item1.addEventListener("click", () => {
             h.textContent = "tea order sucessful"
-            img.src ="D:\javascript\asset\tea.jpg"
+            img.src ="asset/tea.jpg"
             img.style.display = "block"
             payment.style.display = "block"
             item1.style.display = "none"
         })
         item2.addEventListener("click", () => {
             h.textContent = "coffe order sucessful"
-            img.src="index.html/asset/tea.jpg"
+            img.src="asset/coffe.jpg"
             img.style.display = "block"
             payment.style.display = "block"
             item2.style.display = "none"
@@ -67,6 +67,10 @@
             img.style.display = "block"
             payment.style.display = "block"
             item4.style.display = "none"
+        })
+        payment.addEventListener("click",()=>{
+            img.style.display ="none"
+            h.textContent ="Payment received thank you for you order...."
         })
 
 
