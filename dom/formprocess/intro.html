@@ -3,11 +3,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form process</title>
+    <link rel="stylesheet" href="../formprocess/intro.css">
 </head>
-<input type="text" id="inputdatas" placeholder="search product">
-<button id="btn">click</button>
-<p id="result"></p>
-<img  src="" id="images" alt="order" >
+ <h1 style="margin-left: 500px;color:violet">search any things</h1>
+<input style="justify-content: center; margin-left: 500px;width: 250px;padding: 20px;background-color: aqua;border-radius: 70px;text-align: center;" type="text" id="inputdatas" placeholder="search product">
+<button id="btn" style="background-color: black;color: white;">click</button>
+<p style="margin-left: 500px;background-color: brown;border: 7px solid;border-radius: 70px;width: 245px;color: black;background-image:url(asset/virat.jpg);" id="result"></p>
+<img style="margin-left: 500px;width: 250px;margin-top: 30px;" src="" id="images" alt="order" >
 <body>
     <script>
         const btn=document.getElementById("btn")
@@ -35,6 +37,10 @@
          }else if(data==="rohit"){
             img.src="asset/rohit.jpg";
             result1.textContent="your result is rohit";
+
+         }else if (data==="pradeep"){
+          img.src="asset/pradeep.jpg"
+          result1.textContent="your result is pradeep"
          }else{
             img.src=""
          }
