@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destructuring Empty</title>
+</head>
+
+<body>
+    <center>
+     <h1>Form used In Document Objected Model</h1>
+    </center>
+    <div style="text-align:center;">
+        <form id="form">
+            <label>Enter Your Name</label>
+            <input style="margin-top: 20px;justify-content: center;" type="text" id="name"
+                placeholder="Enter your name">
+            <br>
+
+            <label>Enter Your Email</label>
+            <input style="margin-top: 20px;" type="email" id="email" placeholder=" Enter your Email ">
+            <br>
+
+            <label>Enter Your Password</label>
+            <input style="margin-top: 20px;" type="password" id="password" maxlength="10"
+                placeholder="Enter your Password">
+            <br>
+
+            <label>Enter Your Date of Birth</label>
+            <input style="margin-top: 20px;" type="date" id="age" placeholder="Enter your DOB">
+            <br>
+
+            <label>Enter Your Mobile No</label>
+            <input type="tel" id="mobile" maxlength="10" style="margin-top: 20px;" placeholder="Enter your Mobile NO">
+            <br>
+
+            <label>Enter the Text</label>
+            <textarea id="text" style="margin-top: 20px;" placeholder="Enter your Text"></textarea>
+            <br>
+
+            <label>enter the gender:</label>
+            <input id="gender" type="radio" name="gender" style="margin-top: 20px;" placeholder="Enter your Gender">male
+            <input type="radio" name="gender" id="female">female
+            <br><br>
+
+            <button style="margin-top: 20px;" id="submit">Register</button>
+            <p id="para"></p>
+        </form>
+    </div>
+
+    <script>
+        const form = document.getElementById("form");
+        const para = document.getElementById("para");
+
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const password = document.getElementById("password").value.trim();
+            const birthDate = document.getElementById("age").value;
+            const mobile = document.getElementById("mobile").value.trim();
+            const text = document.getElementById("text").value.trim();
+            const gender = document.getElementById("gender").value.trim();
+            const female = document.getElementById("female").value.trim();
+
+
+
+            // Validation conditions
+            if (name === "") {
+                para.innerText = "Please enter your name!";
+                para.style.color = "red";
+                return;
+            } else if (email === "") {
+                para.innerText = "Please enter your email!";
+                para.style.color = "red";
+                return;
+            } else if (password === "") {
+                para.innerText = "Please enter your password!";
+                para.style.color = "red";
+                return;
+            } else if (!birthDate) {
+                para.innerText = "Please select your date of birth!";
+                para.style.color = "red";
+                return;
+            } else if (age < 18) {
+                para.innerText = "You must be 18 or older!";
+                para.style.color = "orange";
+                return;
+            } else if (mobile === "") {
+                para.innerText = "Please enter your mobile number!";
+                para.style.color = "red";
+                return;
+            } else if (text === "") {
+                para.innerText = "Please enter your text!";
+                para.style.color = "red";
+                return;
+            } else if (gender === "") {
+                para.innerText = "Please enter your text!";
+                para.style.color = "red";
+                return;
+            } else if (female === "") {
+                para.innerText = "Please enter your text!";
+                para.style.color = "red";
+                return;
+            } else {
+                para.innerText = "Registration successful!";
+                para.style.color = "green";
+                alert("Registered successfully!");
+                const formData = { name, email, password, birthDate, mobile, text, age, gender };
+                console.log(formData);
+
+            }
+        });
+    </script>
+</body>
+
+</html>

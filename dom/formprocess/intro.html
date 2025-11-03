@@ -14,6 +14,7 @@
     <script>
         const btn=document.getElementById("btn")
          btn.addEventListener('click',(i)=>{
+            
          const img=document.getElementById("images")
          const data=document.getElementById("inputdatas").value
          const result1=document.getElementById("result");
@@ -36,6 +37,7 @@
           result1.textContent="your result is virat";
          }else if(data==="rohit"){
             img.src="asset/rohit.jpg";
+            alert("search your rohit")
             result1.textContent="your result is rohit";
 
          }else if (data==="pradeep"){
@@ -43,6 +45,7 @@
           result1.textContent="your result is pradeep"
          }else{
             img.src=""
+            alert("search your images")
          }
          });
     </script>
