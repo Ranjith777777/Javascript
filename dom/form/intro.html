@@ -14,7 +14,7 @@
     <div style="text-align:center;">
         <form id="form">
             <label>Enter Your Name</label>
-            <input style="margin-top: 20px;justify-content: center;" type="text" id="name"
+            <input style="margin-top: 20px;" type="text" id="name"
                 placeholder="Enter your name">
             <br>
 
@@ -40,8 +40,8 @@
             <br>
 
             <label>enter the gender:</label>
-            <input id="gender" type="radio" name="gender" style="margin-top: 20px;" placeholder="Enter your Gender">male
-            <input type="radio" name="gender" id="female">female
+            <input id="gender" type="radio" name="gender" value="male" style="margin-top: 20px;" placeholder="Enter your Gender">male
+            <input type="radio" name="gender"  value="female" id="female">female
             <br><br>
 
             <button style="margin-top: 20px;" id="submit">Register</button>
@@ -56,14 +56,14 @@
         form.addEventListener("submit", (e) => {
             e.preventDefault();
 
-            const name = document.getElementById("name").value.trim();
-            const email = document.getElementById("email").value.trim();
-            const password = document.getElementById("password").value.trim();
-            const birthDate = document.getElementById("age").value;
-            const mobile = document.getElementById("mobile").value.trim();
-            const text = document.getElementById("text").value.trim();
-            const gender = document.getElementById("gender").value.trim();
-            const female = document.getElementById("female").value.trim();
+            const name = document.getElementById("name").value
+            const email = document.getElementById("email").value
+            const password = document.getElementById("password").value
+            const birthDate = document.getElementById("age").value
+            const mobile = document.getElementById("mobile").value
+            const text = document.getElementById("text").value
+            const gender = document.getElementById("gender").value
+            const female = document.getElementById("female").value
 
 
 
@@ -84,7 +84,9 @@
                 para.innerText = "Please select your date of birth!";
                 para.style.color = "red";
                 return;
-            } else if (age < 18) {
+            } else if (age <=18) {
+                console.log(age);
+                
                 para.innerText = "You must be 18 or older!";
                 para.style.color = "orange";
                 return;
