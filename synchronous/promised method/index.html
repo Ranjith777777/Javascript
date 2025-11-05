@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biriyani Process</title>
+</head>
+<body>
+    <script>
+        // Step 1: Prepare ingredients
+        function makebiriyani() {
+            return new Promise((resolve, reject) => {  
+                setTimeout(() => {
+                    console.log("Step 1: Ingredients preparation");
+                    resolve("Mutton biriyani ready for next step");
+                }, 4000);
+            });
+        }
+
+        
+        function makecookrice() {
+            return new Promise((resolve, reject) => {  
+                setTimeout(() => {
+                    console.log("Step 2: Boil rice with whole spices to 70% doneness");
+                    resolve("Onion fried, marinated meat ready");
+                }, 6000);
+            });
+        }
+
+        
+        function makecookingdum() {
+            return new Promise((resolve, reject) => {  
+                setTimeout(() => {
+                    console.log("Step 3: Steam in sealed pot on low heat for 20-30 mins, rest before opening");
+                    resolve("Final touch: Eat mutton biriyani!");
+                }, 9000);
+            });
+        }
+
+        
+        makebiriyani()
+            .then(step1 => {
+                console.log(step1);
+                return makecookrice();
+            })
+            .then(step2 => {
+                console.log(step2);
+                return makecookingdum();
+            })
+            .then(step3 => {
+                console.log(step3);
+            })
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
+</body>
+</html>
