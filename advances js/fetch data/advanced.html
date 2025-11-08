@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products Images Only</title>
+</head>
+<body>
+  <h2>10 Product Images</h2>
+
+  <div id="productContainer"></div>
+
+  <script>
+    async function getData() {
+      try {
+        const response = await fetch("https://dummyjson.com/products");
+        const data = await response.json();
+
+        const container = document.getElementById("productContainer");
+
+        const tenProducts = data.products.slice(0, 10);
+
+        tenProducts.forEach((product) => {
+          const img = document.createElement("img");
+          img.src = product.thumbnail;
+          img.style.width = "200px";
+          img.style.margin = "10px";
+          container.appendChild(img);
+        });
+
+      } catch (error) {
+        console.log("Error fetching data:", error);
+      }
+    }
+
+    getData();
+  </script>
+</body>
+</html>
